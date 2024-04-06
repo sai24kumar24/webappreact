@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sai24kumar24/webappreact/static/css/main.7c3de490.css",
-    "main.js": "/sai24kumar24/webappreact/static/js/main.157db398.js",
-    "static/js/453.219c1cb4.chunk.js": "/sai24kumar24/webappreact/static/js/453.219c1cb4.chunk.js",
-    "index.html": "/sai24kumar24/webappreact/index.html",
-    "main.7c3de490.css.map": "/sai24kumar24/webappreact/static/css/main.7c3de490.css.map",
-    "main.157db398.js.map": "/sai24kumar24/webappreact/static/js/main.157db398.js.map",
-    "453.219c1cb4.chunk.js.map": "/sai24kumar24/webappreact/static/js/453.219c1cb4.chunk.js.map"
+    "main.css": "/sai24kumar24/webappreact/login/static/css/main.7c3de490.css",
+    "main.js": "/sai24kumar24/webappreact/login/static/js/main.299f2d37.js",
+    "static/js/453.219c1cb4.chunk.js": "/sai24kumar24/webappreact/login/static/js/453.219c1cb4.chunk.js",
+    "index.html": "/sai24kumar24/webappreact/login/index.html",
+    "main.7c3de490.css.map": "/sai24kumar24/webappreact/login/static/css/main.7c3de490.css.map",
+    "main.299f2d37.js.map": "/sai24kumar24/webappreact/login/static/js/main.299f2d37.js.map",
+    "453.219c1cb4.chunk.js.map": "/sai24kumar24/webappreact/login/static/js/453.219c1cb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c3de490.css",
-    "static/js/main.157db398.js"
+    "static/js/main.299f2d37.js"
   ]
 }
