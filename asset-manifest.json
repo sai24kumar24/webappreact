@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sai24kumar24/webappreact.git/static/css/main.7c3de490.css",
+    "main.js": "/sai24kumar24/webappreact.git/static/js/main.f245df9f.js",
+    "static/js/453.219c1cb4.chunk.js": "/sai24kumar24/webappreact.git/static/js/453.219c1cb4.chunk.js",
+    "index.html": "/sai24kumar24/webappreact.git/index.html",
+    "main.7c3de490.css.map": "/sai24kumar24/webappreact.git/static/css/main.7c3de490.css.map",
+    "main.f245df9f.js.map": "/sai24kumar24/webappreact.git/static/js/main.f245df9f.js.map",
+    "453.219c1cb4.chunk.js.map": "/sai24kumar24/webappreact.git/static/js/453.219c1cb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c3de490.css",
+    "static/js/main.f245df9f.js"
+  ]
+}
