@@ -13,11 +13,12 @@ const LoginForm = ({ setIsLoggedIn }) => {
     // Here, you would perform actual authentication logic
     // For simplicity, I'm just checking if both username and password are non-empty
     if (username.trim() !== '' && password.trim() !== '') {
-      setIsLoggedIn(true);
+      setIsLoggedIn(true);      
       navigate('/');
     }
   };
 
+  
   // Add animation when the component mounts
   useEffect(() => {
     const formContainer = document.querySelector('.login-form-container');
