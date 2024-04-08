@@ -1,9 +1,13 @@
 // components/Logout.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Logout = ({ setIsLoggedIn }) => {
   const navigate = useNavigate();
+
+  useEffect(()=>{
+    document.title = 'Logout Page';
+  },[]);
 
   const handleLogout = () => {
     setIsLoggedIn(false);
