@@ -1,5 +1,4 @@
 // components/LoginForm.js
-// components/LoginForm.js
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginForm.css'; // Import the CSS file for the login form styles
@@ -13,7 +12,18 @@ const LoginForm = ({ setIsLoggedIn }) => {
     // Here, you would perform actual authentication logic
     // For simplicity, I'm just checking if both username and password are non-empty
     if (username.trim() !== '' && password.trim() !== '') {
-      setIsLoggedIn(true);      
+      setIsLoggedIn(true);  
+
+      window.aptrinsic("identify", {
+        "id": "skpadala@gainsight.com",
+        "email": "skpadala@gainsight.com",
+        "firstName": "Padala",
+        "lastName": "Sai"
+      }, {
+        "id": "12345",
+        "name": "BMW"
+      }); 
+
       navigate('/');
     }
   };

@@ -11,24 +11,6 @@ import Dropdown from './components/Dropdown';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  //Adding Identify Call
-  useEffect(() => {
-    // Ensure Aptrinsic script is loaded
-    if (window.aptrinsic) {
-      // Call Aptrinsic identify function on successful login
-      window.aptrinsic("identify", {
-        "id": "skpadala@gainsight.com",
-        "email": "skpadala@gainsight.com",
-        "firstName": "Padala",
-        "lastName": "Sai"
-      }, {
-        "id": "12345",
-        "name": "BMW"
-      });
-    }
-  }, []); // Run once on component mount
-
   return (
     <Router>
       <div>
