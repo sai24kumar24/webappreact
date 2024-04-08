@@ -7,12 +7,14 @@ const Home = () => {
     document.title = 'Homepage'; // Set the page title
   }, []);
 
-  <div>
-    <h1>Welcome to Homepage</h1>
-    <button>Button 1</button>
-    <button>Button 2</button>
-    <button>Button 3</button>
-  </div>
+  return(
+    <div>
+      <h1>Welcome to Homepage</h1>
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+    </div>
+  );
 };
 
 export default Home;

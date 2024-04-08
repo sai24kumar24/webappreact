@@ -10,6 +10,8 @@ const Logout = ({ setIsLoggedIn }) => {
   },[]);
 
   const handleLogout = () => {
+    //deleting cookies
+    window.aptrinsic('reset');
     setIsLoggedIn(false);
     navigate('/login');
   };
